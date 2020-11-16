@@ -3,9 +3,7 @@ var wallpaper;
 var fonte;
 var fonte2;
 var fonte3;
-var music;
 var wall;
-var teste;
 
 
 function setup(){
@@ -14,9 +12,7 @@ function setup(){
   fonte = loadFont('GrinchedRegular.otf');
   fonte2 = loadFont('digitalix.ttf');
   fonte3 = loadFont('Retron2000.ttf');
-  music = loadSound('saturn.mp3');
   wall = loadImage('wall.png')
-  teste = loadImage('teste (1).gif')
 }
 
 function draw(){
